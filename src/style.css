@@ -1,0 +1,30 @@
+.card-img-small {
+    width: 150px;
+    height: 200px;
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.cart-count {
+    position: absolute;
+    top: -11px;
+    right: -11px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toast-top-right {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-Index: 1050;
+}
