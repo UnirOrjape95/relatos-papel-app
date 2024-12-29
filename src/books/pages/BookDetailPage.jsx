@@ -52,7 +52,7 @@ export const BookDetailPage = () => {
     <div className="row mt-5">
       <div className="col-4">
         <img
-          src={`../public/assets/books/${book.image}`}
+          src={`/assets/books/${book.image}`}
           alt={book.title}
           className="img-thumbnail"
         />
