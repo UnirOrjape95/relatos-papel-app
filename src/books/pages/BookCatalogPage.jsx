@@ -1,5 +1,6 @@
 import { SearchBar } from '../../shared/components/SearchBar';
-import { BookList } from '../components/bookList';
+import { BookList } from '../components/BookList';
+
 
 export const BookCatalogPage = () => {
   return (
