@@ -71,7 +71,7 @@ export const BookDetailPage = () => {
         <p>{book.synopsis}</p>
 
         {book.stock === 0
-          ? <span class="badge rounded-pill text-bg-danger">Agotado</span>
+          ? <span className="badge rounded-pill text-bg-danger">Agotado</span>
           : <div>
             <h4 className="mt-3">${book.price}</h4>
             <button onClick={onAddCartItem} className="btn btn-primary fw-semibold rounded-pill px-4 py-2">Añadir al carrito</button>
